@@ -1,0 +1,33 @@
+
+.content-way{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight:   bold ;
+  padding-top: 5px;
+}
+.sidebar-container {
+position: relative; 
+ margin: 0;
+ padding:0;
+
+}
+
+.sidebar {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 300px;
+  height: 900px;
+  background-color: yellow;
+  color: black;
+}
+.fetchData{
+  height: 100px;
+  width: 250px;
+  border: 1px solid black;
+  justify-content: center;
+}
+.data{
+  text-decoration: none;
+}
